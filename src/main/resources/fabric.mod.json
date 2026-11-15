@@ -1,26 +1,18 @@
 {
   "schemaVersion": 1,
   "id": "uh_dylan-donations",
-  "version": "${version}",
+  "version": "1.0.0",
   "name": "Dono Alerts",
   "description": "Pay alerts on your screen. Bigger payments = bigger animations. Press U for the menu.",
-  "authors": [
-    "Uh_dylan"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
+  "authors": ["Uh_dylan"],
   "license": "CC0-1.0",
   "icon": "assets/uh_dylan-donations/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "donations.client.DonoAlertsClient"
-    ]
+    "client": ["donations.client.DonoAlertsClient"]
   },
   "depends": {
-    "fabricloader": ">=0.20.1",
+    "fabricloader": ">=0.19.0",
     "minecraft": "~26.2",
     "java": ">=25",
     "fabric-api": "*"
